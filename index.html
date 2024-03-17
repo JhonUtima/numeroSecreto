@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Numero secreto - Juego</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<h1>JUEGO DEL NUMERO SECRETO<strong></strong></h1>
+	</header>
+	<main>
+		<!--<h2>Bienvenido/a vamos a jugar!!</h2>-->
+		<section>
+			<div id="parrafo">
+				<p>Escribe un numero del <b>1</b> al <b>10</b> te daremos pistas!</p>
+			</div>
+			<div id="historial">
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+			<label for="numUsuario"></label>
+			<br>
+			<input id="numUsuario" type="number" name="numeroUsuario">
+				<div id="botones">	
+					<button id="botonLanzar" onclick="numeroUsuario();"><b>Lanzar</b></button>
+					<button id="botonReiniciar" onclick="reiniciarJuego();" disabled><b>Reiniciar</b></button>
+				</div>
+		</section>
+	</main>
+	<footer>
+		<h4>Desarrollado por <b>Jhon Utima</b> | Colombia</h4>
+		<h4> | Project ONE Oracle - alura latam</h4>
+	</footer>
+	<script type="text/javascript" src="app/app.js"></script>
+</body>
+</html>

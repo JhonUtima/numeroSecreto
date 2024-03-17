@@ -1,0 +1,141 @@
+/*CSS FILE*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+/*	background: rgb(33,29,101);
+	background: linear-gradient(294deg, rgba(33,29,101,1) 0%, rgba(37,39,40,1) 100%);*/
+	background: rgb(33,29,101);
+	background: linear-gradient(294deg, rgba(33,29,101,1) 14%, rgba(148,239,245,1) 31%, rgba(231,194,192,1) 45%, rgba(37,50,69,1) 60%, rgba(37,39,40,1) 100%);
+}
+
+main {
+	background-image: url(../media/tierra.jpg);
+	background-attachment: fixed;
+	padding-bottom: 45px;
+	background-repeat: no-repeat;
+	background-size:1250px;	
+	background-position: center;
+	/*background-border: 2px solid black; */
+	border-style: solid;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 50px;
+}
+header {
+	border-bottom: 3px red solid;
+	margin-bottom: 15px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+h1 {
+	color:#CCCCC5;
+	font-family: "Archivo", sans-serif;
+	font-size: 50px;
+	text-align: left;
+	text-shadow: blue 1px 3px;
+	padding-left: 6px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+h2 {
+	font-family: "Archivo", ital;
+	font-size: 55px;
+	text-align: center;
+	text-shadow: black 2px 3px;
+	color:#c1becc;
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+h4{
+	display: inline-block;
+	font-family: "Archivo", ital;
+	/*text-shadow: black 1px 1px;*/
+	font-size: 17px;
+	color: black;
+	text-align: center;
+}
+section{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+p {
+	font-family: "Anta", ital;
+	font-size:65px;
+	margin-top: 50px;
+	text-shadow: chocolate 2px 2px;
+	margin-left: 25px;
+	color: #FFDDD1;
+	margin-bottom: 10px;
+}
+p:hover{
+/*	transform: translateY(-15%);
+	transform: translateX(1%);
+	transition: ease-out 250ms;*/
+
+}
+
+p b{
+	color:red;
+	text-shadow: black 2px 2px;
+}
+
+#parrafo{
+	text-align: center;
+ }
+ input{
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	width: 250px;
+ 	height: 70px;
+ 	border-radius: 20px;
+ 	border: 2px solid black;
+ 	font-family: "Archivo", ital;
+ 	font-size:30px;
+ 	text-align: center;
+ 	background-color: #e3e6ae;
+	/*background: rgb(54,54,56);
+	background: linear-gradient(294deg, rgba(54,54,56,1) 5%, rgba(60,145,152,1) 9%, rgba(177,203,240,1) 24%, rgba(128,148,177,1) 90%, rgba(37,39,40,1) 96%);*/
+ 	color: blue;
+ 	/*margin-left: 455px;*/
+
+ }
+ #botonReiniciar{
+	background-color: grey;
+
+}
+
+ button{
+ 	margin-top: 20px;
+ 	margin-bottom: 40px;
+ 	width: 250px;
+ 	height: 70px;
+ 	border-radius: 20px;
+ 	font-family: "Archivo", ital;
+ 	font-size:30px;
+ 	text-align: center;
+ 	background-color: #86b8a5;
+ 	color: firebrick;
+ 	margin-left: 20px;
+ 	box-shadow:  2px 2px;
+ 	transition: 1s background;
+ 	cursor: pointer;
+ }
+
+button:hover{
+ 	/*text-shadow: yellow 2px 2px;*/
+ 	background-color: aqua;
+ 	transform: scale(1.1);
+}
+strong{
+	color:white;
+	/*font-size: 60px;*/
+	text-shadow: purple 2px 3px;
+
+}
+#historial{
+
+}
